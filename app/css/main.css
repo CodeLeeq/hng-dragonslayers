@@ -8,6 +8,50 @@ html {
   box-sizing: inherit;
 }
 
-body {
-  margin: 0;
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 5%;
+  margin-top: 0%;
+  background-color: rgb(250, 255, 245);
+  width: 90vw;
+
 }
+
+/* Code Added */
+.main{
+  background-color: rgb(236, 236, 236);
+  display: grid;
+  grid-template-columns: 20% 59% 20%;
+  grid-column-gap: 0.4em;
+  grid-row-gap:1em; 
+ margin: 3% 0% 0% 0%;
+}
+
+.profile{
+  background-color: #d9e0db;
+  height: 45vh;
+}
+
+ 
+.feed{
+  background-color: #fcfcfc;
+  height: 100vh;
+}
+ 
+.side-bar{
+  background-color: #d9e0db;
+  height: 55vh;
+}
+.nav-header{
+  border: 1px solid black;
+  height: 70px;
+  background-color: #355e3b;
+}
+
+#label{
+  align-content: center;
+  color:gray;
+  margin-left: 400px;
+  margin-top: 55px;
+} 
+
